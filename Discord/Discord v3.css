@@ -4,22 +4,24 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
 
 :root {
---main-color: #FCEAF8AA;
---hover-color: #FCEAF87E;
---success-color: #00b894;
---danger-color: #ff7675;
---url-color: #E3C3DEEA;
---online-color: #9DC7B9;
---idle-color: #F3AE9F;
---dnd-color: #F69498;
---streamig-color: #B0B6D8;
+--main-color: rgba(245, 216, 215, 0.75);
+--hover-color: rgba(247, 216, 215, 0.55);
+--success-color: #B5EAD7;
+--danger-color: #FF9AA2;
+--url-color: rgba(247, 216, 215, 0.9);
+
+--online-color: #A0CFA2;
+--idle-color: #FFF4BA;
+--dnd-color: #EF919B;
+--streamig-color: #8380B3;
 --offline-color: #D0D4F9;
+
 --main-font: 'Outfit Medium';
 --code-font: 'Source Code Pro';
 --text-normal: #dcdddeff;
 --text-muted: #72767dff;
---channels-width: 250px;
---members-width: 275px;
+--channels-width: 14vw;
+--members-width: 15vw;
 --background-shading: 5%;
 --background-overlay: #00000099;
 --background-image: url('https://cdn.discordapp.com/attachments/710984304330670173/843567558878691368/hg.png');
@@ -36,7 +38,7 @@
 --background-blur: 0px;
 --home-icon: url('https://2.bp.blogspot.com/-5C3A_djZHiw/W969R6G0pJI/AAAAAAAFt9E/5ktEZ3zjgL0cQIXV9oXQHHP4hl4ILfc0ACLcBGAs/s1600/AW2218804_02.gif');
 --home-position: top;
---home-size: 65px;
+--home-size: 60px;
 --background-overlay: #00000099;
 --backdrop-image: url('https://clearvision.gitlab.io/images/sapphire.jpg');
 --backdrop-image: center;
