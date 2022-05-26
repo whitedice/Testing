@@ -95,7 +95,15 @@
 	z-index: 1;
 }
 
+/* Kreis weg beim Reden  machen */
+#app-mount>div:not([class^="app-"]),
+.autocomplete-1vrmpx {
+	--background-secondary: var(--background-solid-dark);
+}
+
+
 /* Redet gerade */
+
 .voiceUser-3nRK-K{
     z-index:1
 }
@@ -175,13 +183,8 @@
   margin-bottom: 15px;
 }
 
+/* Fix bei Chris
 .nameTag-sc-gpq {
   margin-right: 62px;
 }
-
-
-/* Grüner Kreis beim Reden unten weg*/
-.avatarSpeaking-2pCGrZ, .border-2Vy6FN.speaking-7QZEkv, .border-2BJQjd.speaking-3RWJBr, .avatarSpeaking-33RRJU {
-    -webkit-box-shadow: inset 0 0 0 0px #ffffff ,inset 0 0 0 0px var(--background-secondary);
-    box-shadow: inset 0 0 0 0px #212121, inset 0 0 0 0px #212121;
-}
+*/
